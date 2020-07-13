@@ -91,7 +91,7 @@ Laporan tersebut terdiri atas beberapa informasi sebagai berikut:
 
 2. <code>line 1</code>: Baris program di mana kesalahan tersebut terjadi.
 
-3. <code>in \<module></code>: Jika baris program merupakan bagian dari modul, nama modulnya akan disebutkan di sini.
+3. <code>in module</code>: Jika baris program merupakan bagian dari modul, nama modulnya akan disebutkan di sini.
 
 4. <code>310235.60481380235**121</code>: Blok program yang mengalami kesalahan.
 
