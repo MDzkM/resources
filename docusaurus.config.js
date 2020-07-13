@@ -1,7 +1,7 @@
 module.exports = {
   title: 'mdzkm.',
   tagline: 'Blog, Tutorials, and Personal Archives',
-  url: 'https://resources.mdzkm.netlify.com',
+  url: 'https://resources-mdzkm.netlify.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'mdzkm', // Usually your GitHub org/user name.
