@@ -1,7 +1,7 @@
 ---
 id: installation
-title: Instalasi
-sidebar_label: Instalasi
+title: Installation
+sidebar_label: Installation
 ---
 
 ## Instalasi Python

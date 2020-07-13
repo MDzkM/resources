@@ -1,7 +1,7 @@
 ---
 id: variable
-title: Variabel
-sidebar_label: Variabel
+title: Variable
+sidebar_label: Variable
 ---
 
 ## Definisi
@@ -29,16 +29,18 @@ Di bawah ini merupakan beberapa kebijakan pembuatan variabel yang mendasar dan b
 
 1. Nama variabel hanya dapat terdiri atas huruf, angka, dan tanda garis bawah (<code>_</code>).
 2. Nama variabel tidak boleh dimulai dari sebuah angka.
-3. Nama variabel bersifat *case-sensitive* sehingga <code>variabelku</code> dan <code>Variabelku</code> tidak sama di mata Python dan dapat digunakan bersama-sama dalam satu program.
+3. Nama variabel bersifat *case-sensitive* sehingga <code>variabelku</code> dan <code>VariabelKu</code> tidak sama di mata Python dan dapat digunakan bersama-sama dalam satu program.
 4. Nama variabel dapat dibuat sepanjang mungkin namun disarankan bahwa suatu baris program tidak melebihi 79 karakter.
 5. Untuk nama variabel yang seharusnya terdiri dari spasi, salah satu dari kedua metode ini dapat digunakan:
-   > snake_case &#8594; my_variable_yeay
-
-   > camelCase &#8594; myVariableYeay
+   ~~~python
+   # snake_case → my_variable_yeay
+   # camelCase → myVariableYeay
+   ~~~
 6. Disarankan untuk menggunakan nama variabel yang representatif terhadap data yang akan diberikan kepada variabel tersebut.
-   > Do: username, email, nilai_pi
-
-   > Don't: xyz, qwerty, knkn
+   ~~~python
+   # Do → username, email, nilai_pi
+   # Don't → xyz, qwerty, knkn
+   ~~~
 
 ~~~python
 course_name = "Dasar-Dasar Pemrograman 0"

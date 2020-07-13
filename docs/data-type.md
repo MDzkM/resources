@@ -1,7 +1,7 @@
 ---
 id: data-type
-title: Definisi
-sidebar_label: Definisi
+title: Definition
+sidebar_label: Definition
 ---
 
 :::important

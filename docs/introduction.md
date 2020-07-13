@@ -1,7 +1,7 @@
 ---
 id: introduction
-title: Dasar-Dasar Pemrograman 0 (DDP 0)
-sidebar_label: Introduksi
+title: Dasar-Dasar Pemrograman 0
+sidebar_label: Introduction
 ---
 
 Selamat datang di arsip "Dasar-Dasar Pemrograman 0". Arsip ini digunakan sebagai wadah penyimpanan materi-materi tentang dasar-dasar pemrograman dengan menggunakan bahasa pemrograman Python. Materi yang ada pada arsip ini disusun sebagai penunjang kegiatan dengan nama serupa yang diadakan oleh Quanta 2018 sebagai bimbingan dasar pemrograman bagi pemula di bidang pemrograman. Materi yang ada pada arsip ini terbuka untuk umum dan dapat dipergunakan / dikembangkan / dimodifikasi oleh siapapun sesuai Lisensi yang berlaku.

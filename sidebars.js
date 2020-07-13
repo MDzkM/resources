@@ -1,25 +1,35 @@
 module.exports = {
-  someSidebar: {
-    "Welcome": ["about-this-website"],
-    "DDP 0": [
-      "introduction",
-      "installation",
-      {
-        "type": "category",
-        "label": "Tipe Data",
-        "items": [
-          "data-type",
-          "string",
-          "integer",
-          "float",
-          "boolean",
-          "list",
-          "tuple",
-          "other-types-and-type-casting"
-        ]
-      },
-      "variable",
-      "problem-set-1"
-    ]
-  },
+  someSidebar: [
+    {
+      "type": "category",
+      "label":"Welcome",
+      "collapsed": false,
+      "items": ["about-this-website"],
+    },
+    {
+      "type": "category",
+      "label": "DDP 0",
+      "collapsed": false,
+      "items": [
+        "introduction",
+        "installation",
+        {
+          "type": "category",
+          "label": "Data Types",
+          "items": [
+            "data-type",
+            "string",
+            "integer",
+            "float",
+            "boolean",
+            "list",
+            "tuple",
+            "other-data-types",
+          ]
+        },
+        "variable",
+        "problem-set-1",
+      ],
+    },
+  ],
 };
