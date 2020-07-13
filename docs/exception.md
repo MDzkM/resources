@@ -87,7 +87,7 @@ OverflowError: (34, 'Result too large')
 
 Laporan tersebut terdiri atas beberapa informasi sebagai berikut:
 
-1. <code>File "<pyshell#2>"</code>: Berkas Python di mana kesalahan tersebut terjadi. Jika kesalahan terjadi di komando yang ditulis di Shell, maka File akan menunjukkan <code>pyshell</code>.
+1. <code>File pyshell#2</code>: Berkas Python di mana kesalahan tersebut terjadi. Jika kesalahan terjadi di komando yang ditulis di Shell, maka File akan menunjukkan <code>pyshell</code>.
 
 2. <code>line 1</code>: Baris program di mana kesalahan tersebut terjadi.
 
