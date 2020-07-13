@@ -5,40 +5,38 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'mdzkm', // Usually your GitHub org/user name.
-  projectName: 'DDP-Docusaurus', // Usually your repo name.
+  projectName: 'resources', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'mdzkm.',
-      // logo: {
-      //   alt: 'mdzkm.',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        href: 'https://mdzkm.wtf',
+        target: '_self'
+      },
       links: [
         {
           to: '/',
           activeBasePath: 'docs',
           label: 'Tutorials and Archives',
-          position: 'left',
+          position: 'right',
         },
         {
           href: 'https://blog.mdzkm.wtf',
           label: 'Blog',
-          position: 'left',
-          target: '_self',
-        },
-        {
-          href: 'https://mdzkm.wtf',
-          label: 'Return to Profile Web',
           position: 'right',
           target: '_self',
         },
       ],
+      // algolia: {
+      //   apiKey: 'api-key',
+      //   indexName: 'index-name',
+      // },
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Tutorial and Archives',
+          title: 'Links',
           items: [
             {
               label: 'About',
@@ -51,6 +49,24 @@ module.exports = {
             {
               label: 'Archives',
               to: '/introduction/',
+            },
+            {
+              label: 'Blog',
+              href: 'https://blog.mdzkm.wtf',
+              target: '_self',
+            },
+          ],
+        },
+        {
+          title: 'Codebase',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/mdzkm',
+            },
+            {
+              label: 'GitLab',
+              href: 'https://gitlab.com/mdzkm',
             },
           ],
         },
@@ -65,23 +81,9 @@ module.exports = {
               label: 'Instagram',
               href: 'https://instagram.com/mdzkm',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
             {
-              label: 'Blog',
-              href: 'https://blog.mdzkm.wtf',
-              target: '_self',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/mdzkm',
-            },
-            {
-              label: 'GitLab',
-              href: 'https://gitlab.com/mdzkm',
+              label: 'Twitter',
+              href: 'https://twitter.com/mdzkm',
             },
           ],
         },
