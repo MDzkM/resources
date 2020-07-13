@@ -40,15 +40,17 @@ module.exports = {
           items: [
             {
               label: 'About',
+              href: 'https://mdzkm.wtf/about',
+              target: '_self',
+            },
+            {
+              label: 'Projects',
+              href: 'https://mdzkm.wtf/projects',
+              target: '_self',
+            },
+            {
+              label: 'Tutorials and Archives',
               to: '/',
-            },
-            {
-              label: 'Tutorials',
-              to: '/introduction/',
-            },
-            {
-              label: 'Archives',
-              to: '/introduction/',
             },
             {
               label: 'Blog',
