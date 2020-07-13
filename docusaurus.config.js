@@ -79,12 +79,12 @@ module.exports = {
               href: 'https://linkedin.com/in/mdzkm/',
             },
             {
-              label: 'Instagram',
-              href: 'https://instagram.com/mdzkm',
-            },
-            {
               label: 'Twitter',
               href: 'https://twitter.com/mdzkm',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://instagram.com/mdzkm',
             },
           ],
         },
