@@ -7,6 +7,10 @@ module.exports = {
   organizationName: 'mdzkm', // Usually your GitHub org/user name.
   projectName: 'resources', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: 'ef445b82b269b0794ad475c21c8dd64e',
+      indexName: 'mdzkm',
+    },
     navbar: {
       title: 'mdzkm.',
       logo: {
@@ -26,10 +30,6 @@ module.exports = {
           target: '_self',
         },
       ],
-      // algolia: {
-      //   apiKey: 'api-key',
-      //   indexName: 'index-name',
-      // },
     },
     footer: {
       style: 'dark',
