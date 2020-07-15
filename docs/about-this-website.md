@@ -10,6 +10,10 @@ Every assignment solution in the archives is my own interpretation of the solvin
 
 I hope this website would be of help to you. Happy reading!
 
+:::tip
+If you feel lost on where to find a specific information, you can use the search bar provided at the top right corner of the website.
+:::
+
 :::important
 **NOTICE**: The migration of data is currently ongoing from github, come back later to see the refined state of the contents.
 :::
