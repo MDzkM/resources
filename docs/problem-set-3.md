@@ -1,10 +1,10 @@
 ---
 id: problem-set-3
-title: Problem Set 3
-sidebar_label: Problem Set 3
+title: Problem Set III
+sidebar_label: Problem Set III
 ---
 
-## L1. Penggunaan Fungsi <code>range()</code>
+## Penggunaan Fungsi <code>range()</code>
 
 (R - *) Carilah nilai argumen dari masing-masing penggunaan fungsi <code>range</code> sehingga dapat menghasilkan hasil seperti yang diminta. Jumlah argumen yang digunakan harus sama dengan slot yang disediakan. Contohnya, apabila disediakan <code>arg1</code> dan <code>arg2</code>, maka kamu harus menggunakan dua argumen untuk menyusun urutannya.
 
@@ -84,11 +84,11 @@ sidebar_label: Problem Set 3
 
 
 
-## L2. Konversi Masalah ke Struktur Kendali
+## Konversi Masalah ke Struktur Kendali
 
 Buatlah sebuah fungsi yang dapat menangani masalah-masalah berikut ini dan mengembalikan hasil sesuai dengan yang diminta.
 
-1. **(R - \*) Perhitungan Faktorial**
+1. Perhitungan Faktorial
 
    > Penggunaan modul <code>math</code> pada soal ini **tidak diperkenankan**.
 
@@ -107,7 +107,7 @@ Buatlah sebuah fungsi yang dapat menangani masalah-masalah berikut ini dan menge
    1. Buatlah minimal dua versi dari fungsi ini, menggunakan pola perulangan <code>for</code> dan <code>while</code>.
    2. Apabila sudah paham rekursi, implementasikan perhitungan ini dengan menggunakan rekursi.
 
-2. **(R - \*\*) Perhitungan Kombinasi dan Permutasi**
+2. Perhitungan Kombinasi dan Permutasi
 
    > Penggunaan modul <code>math</code> pada soal ini **tidak diperkenankan**.
 
@@ -134,7 +134,7 @@ Buatlah sebuah fungsi yang dapat menangani masalah-masalah berikut ini dan menge
 
       ![](assets/combi.png)
 
-3. **(R - \*\*) Penentuan Tahun Kabisat dalam Rentang Tahun**
+3. Penentuan Tahun Kabisat dalam Rentang Tahun
 
    Argumen fungsi:
 
@@ -153,7 +153,7 @@ Buatlah sebuah fungsi yang dapat menangani masalah-masalah berikut ini dan menge
       2. Tahun tersebut habis dibagi 400.
    3. Kamu bisa memodifikasi program penentuan tahun kabisat yang telah dibuat pada Pekan 2.
 
-4. **(R - \*\*\*) Pembuatan Poligon dengan <code>turtle</code>**
+4. Pembuatan Poligon dengan <code>turtle</code>
 
    Argumen fungsi:
 
@@ -179,9 +179,9 @@ Buatlah sebuah fungsi yang dapat menangani masalah-masalah berikut ini dan menge
 
 
 
-## L3. Latihan Pemrograman
+## Latihan Pemrograman
 
-### 1. Perhitungan Tarif KRL
+### Perhitungan Tarif KRL
 
 > Soal ini diadaptasi dari Tutorial 3 Dasar-Dasar Pemrograman 1 Kelas Ekstensi 2018-2019/2
 
@@ -252,7 +252,7 @@ station_list = [["Bogor", 7.518],
 
 Soal ini terdiri atas beberapa sub-soal yang dapat kamu kerjakan sesuai dengan kemampuanmu. Setiap soal akan mempermudah pekerjaan soal setelahnya, sehingga kerjakanlah secara bertahap.:
 
-##### 1A. (R - \*\*) Pencarian Urutan Stasiun
+##### Pencarian Urutan Stasiun
 
 Dengan memanfaatkan 2-D List data stasiun dan jaraknya dengan stasiun setelahnya tadi, buatlah sebuah fungsi yang dapat menerima argumen berupa nama sebuah stasiun dan mencari urutan stasiun tersebut pada List (misalnya, data Stasiun Bogor ada pada indeks ke-0, data Stasiun Cilebut ada pada indeks ke-1, dan seterusnya). Jika ditemukan, maka fungsi akan mengembalikan nomor indeks di mana stasiun tersebut berada. Jika tidak ditemukan, maka fungsi akan mengembalikan <code>None</code>.
 
@@ -277,7 +277,7 @@ Catatan:
 
 
 
-##### 1B. (R - \*\*) Pencarian Jarak Antara Dua Stasiun
+##### Pencarian Jarak Antara Dua Stasiun
 
 Buatlah sebuah fungsi yang dapat menerima dua buah argumen String berisi nama stasiun. Fungsi ini akan mengembalikan jarak antara kedua stasiun tersebut. Pencarian jarak ini harus bisa dilakukan secara dua arah, baik sesuai dengan urutan atas ke bawah yang ada pada List stasiun maupun urutan yang terbalik (bawah ke atas). Apabila salah satu stasiun tidak ditemukan, fungsi akan mengembalikan <code>None</code>.
 
@@ -305,7 +305,7 @@ Catatan:
 
 
 
-##### 1C. (R - \*\*\*) Perhitungan Harga Perjalanan
+##### Perhitungan Harga Perjalanan
 
 Buatlah sebuah fungsi yang dapat menerima dua buah argumen String nama stasiun. Fungsi ini akan mengembalikan harga yang harus dibayarkan oleh penumpang untuk perjalanan antara kedua stasiun. Jika salah satu stasiun tidak ada dalam daftar, maka fungsi akan mengembalikan <code>None</code>.
 
@@ -348,7 +348,7 @@ Catatan:
 
 
 
-##### 1D. (R - \*) Perhitungan Pembayaran THB
+##### Perhitungan Pembayaran THB
 
 Untuk melakukan perjalanan dengan KRL, kamu dapat membeli Tiket Harian Berjaminan (THB) yang dapat digunakan untuk tepat satu kali perjalanan (terhitung dari *tap* masuk hingga *tap* keluar). Tiket tersebut diberi harga dasar Rp10.000 sebagai jaminan ditambah dengan harga perjalanan yang diinginkan oleh penumpang. Namun, terhitung 1 Agustus 2019, beberapa stasiun KRL tidak lagi menerima pembelian Tiket Harian Berjaminan (THB). Pada lintas Bogor-Jakarta Kota, stasiun tersebut adalah **Cikini** dan **Universitas Indonesia**.
 
@@ -379,7 +379,7 @@ Harga THB Cikarang - Jakarta Kota: Rp None
 
 
 
-### 2. *Caesar Cipher*
+### *Caesar Cipher*
 
 *Caesar Cipher* atau juga dikenal dengan nama *shift cipher* adalah salah satu metode kriptografi data yang paling sederhana. Dalam metode ini, setiap huruf dalam String data akan "digeser" sejauh nilai kunci yang ditentukan. "Digeser" di sini dimaknai sebagai penggantian huruf tersebut menjadi huruf yang menempati posisi nilai kunci setelah huruf tersebut dalam abjad. Misalnya, huruf A apabila dikenakan *cipher* dengan kunci 4, berarti hasilnya nanti akan menjadi E, karena E terletak 4 huruf setelah A dalam urutan abjad. Contohnya:
 
@@ -422,7 +422,7 @@ R H M D N
 
 Soal ini terdiri dari beberapa sub-soal yang dapat kamu kerjakan sesuai dengan kemampuanmu sebagai berikut:
 
-##### 2A. (R - \*\*\*) Enkripsi Data
+##### Enkripsi Data
 
 Buatlah sebuah fungsi yang menerima argumen berupa String yang akan dienkripsi serta kunci yang digunakan (kunci positif untuk pergeseran ke kanan, kunci negatif untuk pergeseran ke kiri). Fungsi ini mengembalikan hasil dari enkripsi/pergeseran yang dilakukan.
 
@@ -448,7 +448,7 @@ Hasil Kedua: OHNOE CFGO EIGJONYL
 
 
 
-##### 2B. (R - \*\*\*) Dekripsi Data
+##### Dekripsi Data
 
 Buatlah sebuah fungsi yang menerima argumen berupa String yang sudah dienkripsi serta kunci yang digunakan ketika melakukan enkripsi. Fungsi ini akan mengembalikan String data yang asli. Kunci yang dimasukkan oleh pengguna harus sama dengan kunci yang digunakan pada saat enkripsi. Manipulasi kunci tersebut dilakukan di dalam fungsi dekripsi.
 
@@ -468,9 +468,7 @@ Hasil Pertama: UNTUK ILMU KOMPUTER
 Hasil Kedua: UNTUK ILMU KOMPUTER
 ~~~
 
-
-
-##### 2C. (R - \*\*\*\*) *Brute Force Decryption*
+##### *Brute Force Decryption*
 
 Sekarang, anggaplah kamu memiliki sebuah teks yang telah dienkripsi, namun kamu tidak mengetahui kunci yang digunakan pada saat enkripsi. Kamu hanya mengetahui bahwa teks tersebut harusnya dimulai atau diakhiri oleh suatu kata. Dengan menggunakan kata yang kamu ketahui ini, kamu bisa melakukan *brute force decryption* (dekripsi paksa) dengan mencoba semua kemungkinan kunci dari 0 hingga 26 sampai kamu menemukan kata yang kamu ketahui tadi di teks yang didekripsi.
 
@@ -507,13 +505,11 @@ VGHVHVOZMFPNZODVWZMEVNVPIDQZMNDOVNDIYJIZNDV
 DWRENABRCJBRWMXWNBRJYNAUJVKJWPLRCJKNAMJBJATJWYJWLJBRUJMJBJAWNPJAJ
 ~~~
 
-
-
-##### 2D. (R - \*\*\*\*\*) Pembuatan Antarmuka Pengguna
+##### Pembuatan Antarmuka Pengguna
 
 Berbekal fungsi-fungsi yang sudah kamu susun sebelumnya, kini tiba saatnya momen kamu untuk membuat suatu program besar yang dapat menyajikan fungsi-fungsi tadi ke dalam suatu antarmuka pengguna (*user interface*) yang terintegrasi. Sub-soal ini terdiri dari beberapa anak sub-soal yang bisa kamu kerjakan sesuai dengan kemampuanmu sebagai berikut:
 
-###### 2D1. Pembuatan Antarmuka Dasar
+###### Pembuatan Antarmuka Dasar
 
 Pertama, program akan meminta pengguna untuk memilih komando untuk enkripsi, dekripsi, *brute force decryption*, dan keluar dari program. Masing-masing komando memiliki huruf yang bisa dipakai oleh pengguna sebagai masukan. 
 
@@ -612,7 +608,7 @@ os.system('cls')
 
 Untuk macOS dan Linux, argumen komando <code>cls</code> diganti dengan <code>clear</code>.
 
-###### 2D2. Penambahan Opsi Melihat Sejarah Penggunaan
+###### Penambahan Opsi Melihat Sejarah Penggunaan
 
 Kali ini, setiap kali pengguna menggunakan program untuk melakukan enkripsi, dekripsi, atau *brute force decryption*, catatan penggunaannya akan disimpan dalam sebuah 2-D List yang kurang lebih dapat direpresentasikan dengan tabel sebagai berikut:
 
@@ -675,9 +671,7 @@ Date | Operation | Input | Output
 2019-08-07 21:43:50.621478 | Brute Force Decrypt | GGS LV IXQ | ['DDP IS FUN', 3]
 ~~~
 
-
-
-## L4. Bonus
+## Bonus
 
 Dengan menggunakan ilmu yang kamu dapat dari soal *Caesar Cipher*, coba pikirkan cara untuk mencari data yang direpresentasikan oleh untaian teks ini :) 
 

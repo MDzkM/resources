@@ -29,12 +29,39 @@ module.exports = {
         },
         "variable",
         "problem-set-1",
-        "control-structure-1",
+        {
+          "type": "category",
+          "label": "Control Structure I",
+          "items": [
+            "simple-program",
+            "decision-making-structure",
+            "simple-input-output",
+          ]
+        },
         "problem-set-2",
-        "control-structure-2",
+        {
+          "type": "category",
+          "label": "Control Structure II",
+          "items": [
+            "loop",
+            "function",
+            "mutability-and-parameter",
+            "return-break-continue-and-pass",
+          ]
+        },
         "exception",
+        "documentation",
         "problem-set-3",
-        "additional-resources",
+        {
+          "type": "category",
+          "label": "Additional Resources",
+          "items": [
+            "file-system",
+            "directory",
+            "use-text-file-in-python",
+          ]
+        },
+        "zen-of-python",
       ],
     },
   ],

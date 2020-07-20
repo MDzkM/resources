@@ -1,28 +1,26 @@
 ---
 id: problem-set-2
-title: Problem Set 2
-sidebar_label: Problem Set 2
+title: Problem Set II
+sidebar_label: Problem Set II
 ---
 
-## L1. Konversi Grafik ke Struktur Kendali
+## Konversi Grafik ke Struktur Kendali
 
 Konversikan bentuk-bentuk grafik percabangan di bawah ini menjadi sebuah ekspresi Python dengan menggunakan struktur percabangan sehingga dapat mencetak sesuatu sesuai dengan kondisinya!
 
-1. (R - \*) *Target API Level* yang harus dimiliki sebuah aplikasi Android agar dapat dipublikasikan di Play Store.
+1. *Target API Level* yang harus dimiliki sebuah aplikasi Android agar dapat dipublikasikan di Play Store.
 
    ![](assets/code2flow_ysOvl1.png)
 
-2. (R - \*) Pencarian kuadran sebuah sudut dalam derajat di mana sudut 0, 90, 180, 270, dan 360 tidak termasuk kuadran manapun (menjadi perpotongan) dan sudut tidak melebihi 360 derajat.
+2. Pencarian kuadran sebuah sudut dalam derajat di mana sudut 0, 90, 180, 270, dan 360 tidak termasuk kuadran manapun (menjadi perpotongan) dan sudut tidak melebihi 360 derajat.
 
    ![](assets/code2flow_xHB1b4.png)
 
-
-
-## L2. Konversi Masalah ke Struktur Kendali
+## Konversi Masalah ke Struktur Kendali
 
 Buatlah sebuah program yang dapat menangani masalah-masalah ini:
 
-1. **(R - \*) Perhitungan Nilai Mutlak**
+1. Perhitungan Nilai Mutlak
 
    > **Dilarang** menggunakan fungsi abs() pada soal ini.
 
@@ -30,7 +28,7 @@ Buatlah sebuah program yang dapat menangani masalah-masalah ini:
 
    Output: Nilai mutlak dari angka tersebut
 
-2. **(R - \*) Penentuan Tahun Kabisat**
+2. Penentuan Tahun Kabisat
 
    Input: Sebuah tahun
 
@@ -41,7 +39,7 @@ Buatlah sebuah program yang dapat menangani masalah-masalah ini:
    1. Tahun tersebut habis dibagi 4 dan tidak habis dibagi 100
    2. Tahun tersebut habis dibagi 400
 
-3. **(R - \**) Penentuan Hari yang Akan Datang**
+3. Penentuan Hari yang Akan Datang
 
    Input: Nama hari (Senin - Minggu) dan jarak hari (misal 100 hari)
 
@@ -49,13 +47,11 @@ Buatlah sebuah program yang dapat menangani masalah-masalah ini:
 
    Hint: Translasi hari ke angka dapat memanfaatkan List.
 
-4. **(R - \*\*\*) Diskriminan dan Akar Persamaan Kuadrat**
+4. Diskriminan dan Akar Persamaan Kuadrat
 
    Input: Nilai a, b, dan c
 
    Output: Nilai diskriminan dan akar-akarnya (bila ada)
-
-   
 
    Rumus Diskriminan:
    
@@ -67,15 +63,13 @@ Buatlah sebuah program yang dapat menangani masalah-masalah ini:
 
    D < 0: Tidak mempunyai akar real
 
-   
-
    Rumus Akar:
 
    ![](assets/Screenshot_4.png)
 
-## L3. Latihan Pemrograman
+## Latihan Pemrograman
 
-#### 1. (R - **) Pencarian Lokasi Stasiun
+### Pencarian Lokasi Stasiun
 
 Setiap stasiun di Tokyo Metro memiliki kode stasiun yang didesain agar penglaju dapat menggunakan layanan Tokyo Metro terlepas dari pemahaman bahasa setempat. Kode tersebut memiliki format **X-YY** di mana X adalah kode huruf dari jalur yang menggunakan stasiun tersebut dan YY adalah nomor urut stasiun tersebut pada jalur yang sesuai.
 
@@ -98,7 +92,7 @@ Contoh:
 
 Buatlah sebuah program yang dapat menentukan jalur dari sebuah stasiun berdasarkan kode stasiun yang dimasukkan oleh pengguna. Program tersebut juga harus mampu mengecek apakah stasiun tersebut ada atau tidak (misal. kode stasiun G-20 tidak valid karena Ginza Line hanya sampai G-19).
 
-#### 2. (R - multiple) ISBN
+### ISBN
 
 *International Standard Book Number* (ISBN) merupakan sistem penomoran universal yang digunakan sebagai kode unik dari suatu buku yang dipublikasikan. Saat ini, ada dua edisi yang digunakan:
 
@@ -113,11 +107,11 @@ Sebuah nomor ISBN terbagi menjadi 5 bagian utama:
 4. **Elemen Publikasi**: Nomor yang merepresentasikan buku itu sendiri.
 5. ***Check Digit***: 1 karakter yang didedikasikan sebagai pengecek integritas dari sebuah nomor ISBN.
 
-##### 2A. (**) Pengecekan Grup Registrasi
+#### Pengecekan Grup Registrasi
 
 Buatlah sebuah program yang dapat mengecek bahwa suatu buku dipublikasikan di Indonesia atau tidak. Program tersebut harus mampu menerima kedua edisi dari ISBN, baik ISBN-10 maupun ISBN-13.
 
-##### 2B. (\*\*\* to \*\*\*\*) Pengecekan Integritas Nomor ISBN-13
+##### Pengecekan Integritas Nomor ISBN-13
 
 > Disclaimer: Soal ini **bisa** diselesaikan tanpa pola perulangan (<code>for</code>).
 
@@ -167,7 +161,7 @@ Cara kerja *Luhn Algorithm* pada nomor ISBN-13 adalah:
 
 Buatlah sebuah program yang dapat menerima nomor ISBN 13 digit (asumsikan seperti itu) dan cek apakah nomor ISBN-13 tersebut *valid* atau tidak.
 
-#### 3. (D - \*\*\*) Pembuatan Akun
+### Pembuatan Akun
 
 Prerequisites:
 
@@ -196,8 +190,6 @@ Halo! Masukkan angka yang bersesuaian dengan pilihan dibawah ini,
 (1) Login akun
 Pilihan Anda: 
 ```
-
-
 
 **Registrasi**
 
@@ -275,8 +267,6 @@ Password:
 Terima kasih telah meregistrasi di program SpamEgg! Akun Anda telah disimpan dan dapat diakses kapanpun.
 ```
 
-
-
 **Login**
 
 *Input* alternatif pada *Default Output*:
@@ -320,8 +310,6 @@ Username: SpamEgg
 E-mail: SpamEgg@SpamEgg.SpamEgg
 ```
 
-
-
 **Important Notes**
 
 1. Apabila belum mempelajari list maka subtask login tidak perlu dikerjakan.
@@ -344,7 +332,7 @@ E-mail: SpamEgg@SpamEgg.SpamEgg
 
    Untuk *operating system* linux hanya perlu mengganti 'cls' menjadi 'clear'.
 
-#### 4. (D - \*\*) Menghitung IPK
+### Menghitung IPK
 
 Setelah melihat kakak-kakak tingkat mempermasalahkan IPK mereka, Dek Depe jadi penasaran dengan cara menghitung nilai tersebut. Namun karena Dek Depe sangat malas, Ia ingin membuat program untuk melakukan perhitungan tersebut. Sayangnya, saking malasnya Dek Depe Ia belum membaca materi yang diperlukan untuk membuat program tersebut. Bantulah Dek Depe menyelesaikan programnya!
 

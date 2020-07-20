@@ -1,7 +1,7 @@
 ---
 id: problem-set-1
-title: Problem Set 1
-sidebar_label: Problem Set 1
+title: Problem Set I
+sidebar_label: Problem Set I
 ---
 
 ## Konversi Masalah ke Ekspresi Python
