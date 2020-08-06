@@ -10,7 +10,7 @@ Pengambilan keputusan dalam pemrograman bekerja dengan prinsip yang serupa. Prog
 
 Struktur pengambilan keputusan pada pemrograman pada umumnya berbentuk *suite* <code>if</code>-<code>else</code>. Dalam Python, *suite* ini memiliki kata kunci tambahan sehingga menjadi <code>if</code>-<code>elif</code>-<code>else</code> di mana <code>elif</code> merupakan singkatan dari <code>else if</code>. Amati grafik di bawah ini:
 
-![Graph about if-else statement](https://i.ibb.co/yXmzs7T/img-01.png)
+![Graph about if-else statement](https://i.ibb.co/k4PmTKB/img-01.png)
 
 Dalam representasi program pengecekan ketersediaan kursi kosong di atas, pertama dilakukan deklarasi variabel <code>kursi_kosong</code> dengan nilai 1. Untuk memberikan hasil yang sesuai kepada pengguna tentang ketersediaan kursi, program harus membuat keputusan tentang hasil yang akan diberikan kepada pengguna berdasarkan isi dari variabel <code>kursi_kosong</code> tersebut. Pada program di atas, terjadi percabangan yang bergantung pada pengambilan keputusan apakah variabel <code>kursi_kosong</code> memiliki nilai lebih dari 0 atau tidak. Apabila kondisi tersebut benar, maka alur program akan menghasilkan "Masih muat". Sebaliknya, apabila kondisi tersebut salah, alur program akan menghasilkan "Penuh". Dalam hal ini, kondisi benar karena 1 > 0, sehingga "Masih muat" akan dihasilkan.
 
@@ -97,7 +97,7 @@ else:
 
 Terkadang perbedaan dalam kehidupan itu tidak semudah perbedaan hitam dan putih. Dengan gagalnya suatu kondisi untuk diasosiasikan dengan sebuah blok <code>if</code> belum tentu berarti semuanya dapat digeneralisasi menjadi sebuah blok <code>else</code>. Seringkali, ada kondisi lain yang harus diperiksa dan dijadikan pertimbangan dalam mengambil keputusan. Amati grafik berikut ini:
 
-![A graph about multi-way decision structure](https://i.ibb.co/QkXVH49/img-02.png)
+![A graph about multi-way decision structure](https://i.ibb.co/djhhDcZ/img-02.png)
 
 Penjelasan:
 

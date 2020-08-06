@@ -10,11 +10,11 @@ Konversikan bentuk-bentuk grafik percabangan di bawah ini menjadi sebuah ekspres
 
 1. *Target API Level* yang harus dimiliki sebuah aplikasi Android agar dapat dipublikasikan di Play Store.
 
-   ![](https://i.ibb.co/WcfbQ1K/img-03.png)
+   ![](https://i.ibb.co/rbr0JLX/img-03.png)
 
 2. Pencarian kuadran sebuah sudut dalam derajat di mana sudut 0, 90, 180, 270, dan 360 tidak termasuk kuadran manapun (menjadi perpotongan) dan sudut tidak melebihi 360 derajat.
 
-   ![](https://i.ibb.co/k5LgCZ1/img-04.png)
+   ![](https://i.ibb.co/kQ5xsYd/img-04.png)
 
 ## Konversi Masalah ke Struktur Kendali
 
@@ -55,7 +55,7 @@ Buatlah sebuah program yang dapat menangani masalah-masalah ini:
 
    Rumus Diskriminan:
    
-   ![](https://i.ibb.co/4ZqfFYt/img-05.png)
+   ![](https://i.ibb.co/hDjxvdf/img-05.png)
    
    D > 0: Mempunyai dua akar unik
    
@@ -65,7 +65,7 @@ Buatlah sebuah program yang dapat menangani masalah-masalah ini:
 
    Rumus Akar:
 
-   ![](https://i.ibb.co/PYFdRmw/img-06.png)
+   ![](https://i.ibb.co/0GPmr8Q/img-06.png)
 
 ## Latihan Pemrograman
 
@@ -338,7 +338,7 @@ Setelah melihat kakak-kakak tingkat mempermasalahkan IPK mereka, Dek Depe jadi p
 
 Penghitungan IPK dapat dilakukan dengan rumus:
 
-![](https://i.ibb.co/cxkXxf6/img-07.png)
+![](https://i.ibb.co/vvGx1bf/img-07.png)
 
 *Output*:
 
