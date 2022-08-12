@@ -14,7 +14,7 @@ module.exports = {
     navbar: {
       title: 'mdzkm.',
       logo: {
-        href: 'https://mdzkm.wtf',
+        href: 'https://mdzkm.netlify.app/',
         target: '_self'
       },
       links: [
@@ -24,7 +24,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://blog.mdzkm.wtf',
+          href: 'https://blog-mdzkm.netlify.app/',
           label: 'Blog',
           position: 'right',
           target: '_self',
@@ -39,12 +39,12 @@ module.exports = {
           items: [
             {
               label: 'About',
-              href: 'https://mdzkm.wtf',
+              href: 'https://mdzkm.netlify.app/',
               target: '_self',
             },
             {
               label: 'Projects',
-              href: 'https://mdzkm.wtf/projects',
+              href: 'https://mdzkm.netlify.app/projects',
               target: '_self',
             },
             {
@@ -53,7 +53,7 @@ module.exports = {
             },
             {
               label: 'Blog',
-              href: 'https://blog.mdzkm.wtf',
+              href: 'https://blog-mdzkm.netlify.app/',
               target: '_self',
             },
           ],
